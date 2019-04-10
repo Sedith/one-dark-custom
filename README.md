@@ -8,6 +8,6 @@ For Python, this means no aggresive red for the calls of class attributes (_self
 
 Here will be a comparison :
 
-
+> !
 
 The package is still matching the [UI theme](https://atom.io/themes/one-dark-ui).

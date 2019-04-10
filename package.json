@@ -1,14 +1,15 @@
 {
-  "name": "one-dark-syntax",
+  "name": "one-dark-less-red",
   "theme": "syntax",
   "version": "1.8.4",
-  "description": "A dark syntax theme",
+  "description": "A dark syntax theme with less red",
   "keywords": [
     "dark",
     "blue",
-    "syntax"
+    "syntax",
+    "less red"
   ],
-  "repository": "https://github.com/atom/one-dark-syntax",
+  "repository": "https://github.com/Sedith/one-dark-less-red",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
