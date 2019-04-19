@@ -3,8 +3,21 @@
         color: @purple;
     }
 
+    .syntax--string.syntax--double {
+        color: @dark-green
+    }
+    .syntax--punctuation {
+        &.syntax--string.syntax--simple {
+            color: @green
+        }
+        &.syntax--string.syntax--double {
+            color: @dark-green
+        }
+        &.syntax--comment {
+            color: @light-gray;
+        }
+    }
     .syntax--variable {
-
         &.syntax--language {
             color: @mono-2;
         }
