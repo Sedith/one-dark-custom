@@ -17,13 +17,23 @@
             color: @light-gray;
         }
     }
+
     .syntax--variable {
         &.syntax--language {
             color: @mono-3;
         }
-
         &.syntax--parameter {
             color: @dark-orange;
         }
+        // make namespaces blue but also objects :( )
+        // &.syntax--other.syntax--object {
+        //     color: @deep-blue
+        // }
+    }
+    .syntax--variable.syntax--other.syntax--object.syntax--property {
+        color: @mono-1
+    }
+    .syntax--constant.syntax--other.syntax--object {
+        color: @mono-1;
     }
 }
