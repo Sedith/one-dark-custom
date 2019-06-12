@@ -1,12 +1,14 @@
-## Modified One Dark Syntax theme
+# Modified One Dark Syntax theme
 
-This package is forked from the Atom One Dark Syntax theme, which is now available in atom core repository.
+This package is forked from the Atom One Dark Syntax theme, which is available in atom core repository. Most of the changes concern Python syntax coloring.
 
-The only change from the original theme is the reduction of the amount of red, in the case of chained '.' variables.
-For Python, this means no aggresive red for the calls of class attributes (_self.attr_) or packages (_np.empty(.)_).
-> The modifications are in styles/syntax/\_base.less:85-96
+The main change from the original theme is the reduction of the amount of red, in the case of chained '.' variables.
 
-Here will be a comparison :
+For Python, this means no aggresive red for the calls of class attributes (_self.attr_) or packages (for instance _np.empty(.)_).
+
+Most of the colors are also redefined and have more explicit names.
+
+Here will be a comparison, someday :
 
 > !
 
