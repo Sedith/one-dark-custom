@@ -1,8 +1,8 @@
 {
   "name": "one-dark-python",
   "theme": "syntax",
-  "version": "1.8.4",
-  "description": "A dark syntax theme with less red and customized for python",
+  "version": "1.0",
+  "description": "Custom version of the One Dark theme for Atom",
   "keywords": [
     "dark",
     "syntax",
