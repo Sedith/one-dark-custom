@@ -1,5 +1,5 @@
 {
-  "name": "one-dark-python",
+  "name": "one-dark-custom",
   "theme": "syntax",
   "version": "1.0.0",
   "description": "Custom version of the One Dark theme for Atom",
@@ -9,7 +9,7 @@
     "python",
     "less red"
   ],
-  "repository": "https://github.com/Sedith/one-dark-python",
+  "repository": "https://github.com/Sedith/one-dark-custom",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
