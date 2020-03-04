@@ -41,21 +41,23 @@
 }
 
 .syntax--storage {
-  color: @purple;
+    color: @purple;
 
-  &.syntax--type {
-    &.syntax--annotation,
-    &.syntax--primitive {
-      color: @purple;
-    }
-  }
+    &.syntax--type {
+        color: @cyan;
 
-  &.syntax--modifier {
-    &.syntax--package,
-    &.syntax--import {
-      color: @mono-1;
+        &.syntax--annotation,
+        &.syntax--primitive {
+          color: @purple;
+        }
     }
-  }
+
+    &.syntax--modifier {
+        &.syntax--package,
+        &.syntax--import {
+            color: @mono-1;
+        }
+    }
 }
 
 .syntax--constant {
@@ -127,7 +129,7 @@
     &.syntax--variable.syntax--less {
       color: @orange
     }
-    
+
     &.syntax--method-parameters,
     &.syntax--function-parameters,
     &.syntax--parameters,
@@ -249,6 +251,10 @@
 
   &.syntax--tag {
     color: @mono-1;
+  }
+
+  &syntax--preprocessor {
+      color: @purple;
   }
 }
 
